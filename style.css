@@ -1,0 +1,462 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container{
+    width: 1000px;
+    margin: 0px 10px 0px 200px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: rgb(244, 233, 255);
+}
+
+.logo a{
+    margin-top: 500px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(66, 31, 102);
+    font-size: 35px;
+    font-weight: 650;
+}
+
+.login{
+    display: inline-block;
+    margin-left: 1000px;
+    margin-top: 0px;
+}
+
+.login a{
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.sign_up{
+    border: 1px solid blue;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(69, 69, 250);
+    padding: 7px;
+    font-weight: 700;
+}
+
+.login a:hover{
+    text-decoration: underline;
+}
+
+.sign_up:hover{
+    background-color: rgb(54, 54, 214);
+}
+
+.session5{
+   
+    background-color: rgb(244, 233, 255);
+}
+
+.box1{
+    width: 60%;
+    margin: auto;
+    display: inline-block;
+}
+
+.box1 h1{
+    font-size: 36px;
+    font-weight: 500;
+
+}
+
+.box1 h3{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.email{
+    width: 20%;
+    border: 1px solid rgb(109, 109, 109);
+    border-radius: 10px;
+    padding: 10px 200px 10px 5px;
+    font-size: 15px;
+}
+
+.button{
+    background-color: rgb(0, 128, 255);
+    border: 1px solid rgb(37, 139, 230);
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 20px;  
+}
+
+.button:hover{
+    background-color: rgb(20, 89, 158);
+}   
+
+.button a{
+    text-decoration: none;
+    color: white;
+}
+
+.box2{
+    width: 40%;
+    margin: auto;
+}
+
+.box2 img{
+    width: 100%;
+}
+
+.box3{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.box3 h2{
+    font-size: 35px;
+    font-weight: 550;
+}
+
+.box3 h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.box3 a{
+    border-radius: 5px;
+    text-decoration: none;
+    border:1px solid rgb(0, 128, 255);
+    padding: 10px 25px;
+    font-size: 20px;
+    color: rgb(0, 110, 255);
+}
+
+.box3 a:hover{
+    background-color: rgb(0, 128, 255);
+    color: white;
+}
+
+.box4{
+    align-items: center;
+}
+
+.box4 img{
+    margin-top: 35px;
+    width: 100%;
+}
+
+.box4 h4{
+    margin-left: 150px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.abc{
+    width: 20%;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.abc img{
+    width: 50%;
+}
+
+.def{
+    width: 20%;
+    margin-left: 5px;
+}
+
+.def img{
+    width: 50%;
+}
+
+.ghi{
+    width: 20%;
+    margin: 5px 0px 5px 2px;
+}
+
+.ghi img{
+    width: 50%;
+}
+
+.a1{
+    width: 55%;
+    margin: 100px 0px;
+}
+
+.a1 h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.a1 h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.b1{
+    width: 5%;
+    margin: 100px 0px;
+}
+
+.c1{
+    width: 50%;
+    margin: auto;
+}
+
+
+.d1{
+    width: 50%;
+    margin: 30px auto;
+}
+
+.d1 h3{
+    font-weight: 500;
+}
+
+.d1 h4{
+    font-weight: 550;
+    color: rgb(128, 128, 128);
+}
+
+.d1 h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.d1 input{
+    display: none;
+    visibility: hidden;
+}
+
+.d1 label{
+    display: block;
+    padding: 0.5em;
+}
+
+.d1 label:hover{
+    text-decoration: underline;
+}
+.d1 label::before{
+    font-weight: 600;
+    content: "+";
+    vertical-align: text-top;
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+
+.c_1{
+    width: 40%;
+    margin: auto;
+}
+
+.c_1 img{
+    width: 100%;
+}
+
+.d_1{
+    width: 60%;
+}
+
+.c_2{
+    width: 50%;
+    margin: auto;
+}
+
+.c_2 img{
+    width: 100%;
+}
+
+.border{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.design1{
+    width: 40%;
+    margin: auto; 
+}
+
+.design1_1{
+    width: 30%;
+    margin: auto;
+}
+
+.design1_2{
+    width: 60%;
+    margin: auto;
+}
+
+.design1_2 h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.design1_2 h4{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.design2{
+    width: 50%;
+    margin: auto;
+}
+
+.design2_1{
+    width: 40%;
+    margin: auto;
+}
+
+.design2_2{
+    width: 50%;
+    margin: auto;
+}
+
+.design2_2 h3{
+    font-size: 29px;
+    font-weight: 500;
+}
+
+.design2_2 h4{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.border a{
+    text-decoration: none;
+    border: 1px solid rgb(0, 128, 255);
+    padding: 2% 5%;
+}
+
+.border a:hover{
+    background-color: rgb(0, 128, 255);
+    color: white;
+}
+
+.e1{
+    background-color:rgb(227, 255, 252) ;
+    margin-top: 50px;
+    padding-top: 60px;
+}
+
+.e1_border{
+    border-bottom: 5px solid black;
+}
+
+.e1_1{
+    width: 30%;
+    margin: auto;
+}
+
+.e1_2{
+    width: 60%;
+}
+
+.e1_2_margin{
+    margin-left: 50px;
+    font-weight: 550;
+}
+
+.e1_margin{
+    margin-left: 400px;
+    font-weight: 450;
+}
+
+.induc{
+    font-size: 15px;
+    font-weight: 450;
+}
+
+.eC{
+    font-size: 18px;
+}
+
+.box5{
+    width: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid black;
+    background-color: rgb(53, 53, 184);
+    padding: 100px;
+    color: white;
+}
+
+.box5 h3{
+    font-weight: 550;
+}
+
+.end{
+    margin-top: 70px;
+    margin-left: 300px;
+}
+
+.end h3{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.end img{
+    width: 15%;
+}
+
+.end a{
+    text-decoration: none;
+}
+
+.eng{
+    padding: 5px;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 65px;
+    font-size: 30px;
+    color: rgb(167, 165, 165);
+    display: inline;
+}
+
+.footer h5{
+    margin-left: 500px ;
+    width: 200px;
+    text-align: center;
+    border: 1px solid rgb(83, 83, 83);
+    padding: 5px;
+}
+
+.footer h5:hover{
+    color: rgb(34, 34, 34);
+}
+
+.footer_nav{
+    margin-left: 30px;
+}
+
+.footer_nav a{
+    align-items: center;
+    margin: 4px;
+    text-decoration:underline;
+    color: rgb(119, 119, 119);
+}
+
+.footer_nav a:hover{
+    color: black;  
+}
+
+.footer_img{
+    margin-left: 360px;
+    margin-top: 30px;
+    align-items: center;
+    width: 15%;
+}
+
+.center{
+    font-weight: 400;
+    margin-left: 300px;
+    font-size: 15px;
+}
